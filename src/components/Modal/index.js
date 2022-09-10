@@ -12,7 +12,7 @@ function Modal({ onClose, currentPhoto }) {
           alt="current category"
         />
         <p>{description}</p>
-        <button onClick={onClose} type="button">
+        <button data-testid="buttontag" onClick={onClose} type="button">
           Close this modal
         </button>
       </div>
